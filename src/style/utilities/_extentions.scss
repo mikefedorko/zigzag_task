@@ -1,0 +1,24 @@
+// Flexbox extentions
+%flex-between-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+%flex-end-center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+%flex-center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+%flex-center-start {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

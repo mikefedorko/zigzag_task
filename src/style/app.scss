@@ -1,0 +1,16 @@
+@import 'utilities/variables';
+@import 'utilities/extentions';
+
+@import 'components/modal';
+@import 'components/btn';
+@import 'components/select';
+@import 'components/checkbox';
+
+body {
+    color: $primary-color;
+    background: $background-color;
+    font-weight: bold;
+    font-size: $primary-size;
+    font-style: normal;
+    position: relative;
+}
